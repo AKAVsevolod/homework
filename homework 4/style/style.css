@@ -80,8 +80,7 @@ body {
 }
 
 .text {
-    width: 696px;
-    height: 246px;
+    max-width: 696px;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
@@ -90,35 +89,36 @@ body {
     margin: 220px auto;
 }
 
-.text::before {
-    content: '';
+.rectangular1 {
     position: absolute;
     width: 178px;
     height: 121px;
     background: #BFDEFB;
-    top: 130px;
-    left: -109px;
+    margin: 0 auto;
+    left: -112px;
+    top: -120px;
 }
 
-.text_square::before {
-    content: '';
+.rectangular2 {
     position: absolute;
     width: 178px;
     height: 121px;
     background: #BFDEFB;
-    top: -130px;
-    left: -109px;
+    margin: 0 auto;
+    left: -112px;
+    top: 120px;
 }
 
-.text_square::after {
-    content: '';
+.rectangular3 {
     position: absolute;
     width: 178px;
     height: 121px;
     background: #BFDEFB;
-    top: 15px;
-    right: -109px;
+    margin: 0 auto;
+    right: -112px;
+    top: 20px;
 }
+
 
 .text_ball::before {
     content: '';
@@ -157,8 +157,12 @@ body {
     width: 100%;
     border: 1px solid #000000;
     border-radius: 4px;
-    padding: 46px 0px 11px 34px;
+    padding: 36px 0px 11px 34px;
     box-sizing: border-box;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
 }
 
 .input::placeholder {
