@@ -61,7 +61,7 @@ body {
 }
 
 .description {
-    background-color:rgba(0,128,128, 0.3) ;
+    background-color: rgb(92, 152, 171);
     padding: 134px 0;
 }
 
@@ -94,9 +94,8 @@ body {
     width: 178px;
     height: 121px;
     background: #BFDEFB;
-    margin: 0 auto;
-    left: -112px;
-    top: -120px;
+    margin: 0 auto ;
+    top: 1200px;
 }
 
 .rectangular2 {
@@ -105,8 +104,7 @@ body {
     height: 121px;
     background: #BFDEFB;
     margin: 0 auto;
-    left: -112px;
-    top: 120px;
+    top: 1450px;
 }
 
 .rectangular3 {
@@ -115,31 +113,31 @@ body {
     height: 121px;
     background: #BFDEFB;
     margin: 0 auto;
-    right: -112px;
-    top: 20px;
+    right: 0px;
+    
 }
 
 
-.text_ball::before {
+.text_2::before {
     content: '';
     position: absolute;
     width: 58px;
     height: 58px;
     border-radius: 50%;
     background: #5C98AB;
-    top: 415px;
-    left: 250px
+    top: 1750px;
+    left: 320px
 }
 
-.text_ball::after {
+.text_2::after {
     content: '';
     position: absolute;
     width: 120px;
     height: 120px;
     border-radius: 50%;
     background: #BFDEFB;
-    bottom: -40px;
-    right: 170px
+    top: 1950px;
+    right: 290px
 }
 
 .form_section {
